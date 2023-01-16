@@ -1,0 +1,13 @@
+/* Variables */
+:root {
+--primary-brand-color: #4D5AE5;
+--pressed-state-color: #404BBF;
+--dark-color: #2E2F42;
+--success-color: #31D0AA;
+--success-text-color: #434455;
+--subtle-text-color: #8E8F99;
+--subtle-accent-color: #E7E9FC;
+--subtle-light-color: #F4F4FD;
+--modal-overlay-color: rgba(0, 0, 0, 0.05);
+--hero-background-color: #2E2F42; 
+}
