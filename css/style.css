@@ -4,10 +4,117 @@
 --pressed-state-color: #404BBF;
 --dark-color: #2E2F42;
 --success-color: #31D0AA;
---success-text-color: #434455;
+--text-color: #434455;
 --subtle-text-color: #8E8F99;
---subtle-accent-color: #E7E9FC;
---subtle-light-color: #F4F4FD;
+--accent-color: #E7E9FC;
+--light-color: #F4F4FD;
 --modal-overlay-color: rgba(0, 0, 0, 0.05);
---hero-background-color: #2E2F42; 
+--hero-background-color: #2E2F42;
+--white-color: #ffffff
+
 }
+
+
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+
+.logo { 
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24/18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+
+/* Header */
+
+.logo .logo-header {
+  color: var(--dark-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.navigation-link {
+width: 500;
+color: var(--dark-color);
+}
+
+
+.contacts-link {
+  color: var(--text-color);
+  font-style: normal;
+}
+
+.contacts-link:hover, .contacts-link:focus,
+.navigation-link:hover, .navigation-link:focus {
+  color: var(--pressed-state-color);
+}
+
+/* Studio */
+
+/* Hero*/
+
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height:calc(60/56);
+color: var(--white-color)
+}
+.hero-button-title {
+font-weight: 500;
+letter-spacing: 0.04em;
+color: var(--white-color)
+}
+
+/* Features */
+
+.features-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: calc(20/24);
+color: var(--dark-color);
+}
+
+/* Our work and our team */
+.our-work-title,
+.our-team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: calc(40/36);
+color: var(--dark-color);
+}
+
+.portfolio-item-title,
+.team-member-title {
+font-weight: 500;
+font-size: 20px;
+line-height: calc(24/20);
+color: var(--dark-color);
+}
+
+.logo-footer {
+  color: var(--light-color);
+}
+.footer-text {
+color: var(--accent-color);
+}
+
+.portfolio-filter-button {
+  font-weight: 500;
+  color: var(--primary-brand-color);
+  letter-spacing: 0.04em;
+}
+
