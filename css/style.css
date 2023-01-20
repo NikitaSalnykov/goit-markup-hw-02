@@ -49,7 +49,7 @@ background-color: var(--white-color);
 }
 
 .navigation-link {
-width: 500;
+font-weight: 500;
 color: var(--dark-color);
 }
 
@@ -67,9 +67,11 @@ color: var(--dark-color);
 /* Studio */
 
 /* Hero*/
+.hero-section {
+background-color: var(--dark-color);
+}
 
 .hero-title {
-font-weight: 700;
 font-size: 56px;
 line-height:calc(60/56);
 color: var(--white-color)
@@ -77,9 +79,16 @@ color: var(--white-color)
 .hero-button-title {
 font-weight: 500;
 letter-spacing: 0.04em;
-color: var(--white-color)
+color: var(--white-color);
+padding: 16px 32px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: none;
 }
-
+.hero-button-title:hover, .hero-button-title:focus {
+  background: var(--pressed-state-color);
+}
 /* Features */
 
 .features-item-title {
@@ -92,7 +101,6 @@ color: var(--dark-color);
 /* Our work and our team */
 .our-work-title,
 .our-team-title {
-font-weight: 700;
 font-size: 36px;
 line-height: calc(40/36);
 color: var(--dark-color);
@@ -106,6 +114,10 @@ line-height: calc(24/20);
 color: var(--dark-color);
 }
 
+/* Footer */
+.footer-section {
+  background-color: var(--dark-color);
+}
 .logo-footer {
   color: var(--light-color);
 }
@@ -113,9 +125,31 @@ color: var(--dark-color);
 color: var(--accent-color);
 }
 
+/* Portfolio */
+
 .portfolio-filter-button {
   font-weight: 500;
   color: var(--primary-brand-color);
   letter-spacing: 0.04em;
+  background: var(--light-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 
+.portfolio-filter-button:hover, .portfolio-filter-button:focus {
+  background: var(--pressed-state-color);
+  color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border-color: var(--pressed-state-color);
+}
+
+.button-style {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.04em;
+cursor: pointer
+}
